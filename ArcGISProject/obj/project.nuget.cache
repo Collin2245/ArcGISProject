@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "du5alCcvxZtaGHvGjYZ4+jssCLT5BdeTrmFGHBSALuALk+VLr+qI0Q6cEa0MoVSAxw77uvgYa/4Va64rf7zOfA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\colli\\OneDrive\\Programming\\C#\\ArcGISProject\\ArcGISProject\\ArcGISProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\colli\\.nuget\\packages\\esri.arcgisruntime\\100.9.0\\esri.arcgisruntime.100.9.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\esri.arcgisruntime.runtimes.win\\100.9.0\\esri.arcgisruntime.runtimes.win.100.9.0.nupkg.sha512",
+    "C:\\Users\\colli\\.nuget\\packages\\esri.arcgisruntime.wpf\\100.9.0\\esri.arcgisruntime.wpf.100.9.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Esri.ArcGISRuntime.runtimes.win 100.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Esri.ArcGISRuntime.runtimes.win",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

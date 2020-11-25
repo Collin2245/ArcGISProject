@@ -1,0 +1,224 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ArcGISProject/1.0.0": {
+        "dependencies": {
+          "Esri.ArcGISRuntime.WPF": "100.9.0"
+        },
+        "runtime": {
+          "ArcGISProject.dll": {}
+        }
+      },
+      "Esri.ArcGISRuntime/100.9.0": {
+        "dependencies": {
+          "Esri.ArcGISRuntime.runtimes.win": "100.9.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Esri.ArcGISRuntime.dll": {
+            "assemblyVersion": "100.9.0.0",
+            "fileVersion": "100.9.0.2883"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/ar/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/netcoreapp3.1/bs/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "bs"
+          },
+          "lib/netcoreapp3.1/ca/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/netcoreapp3.1/cs/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/da/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "da"
+          },
+          "lib/netcoreapp3.1/de/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/el/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "el"
+          },
+          "lib/netcoreapp3.1/es/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/et/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "et"
+          },
+          "lib/netcoreapp3.1/fi/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/netcoreapp3.1/fr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/he/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "he"
+          },
+          "lib/netcoreapp3.1/hr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/netcoreapp3.1/hu/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/netcoreapp3.1/id/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "id"
+          },
+          "lib/netcoreapp3.1/it/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/lt/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "lt"
+          },
+          "lib/netcoreapp3.1/lv/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "lv"
+          },
+          "lib/netcoreapp3.1/nb-NO/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "nb-NO"
+          },
+          "lib/netcoreapp3.1/nl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netcoreapp3.1/no/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "no"
+          },
+          "lib/netcoreapp3.1/pl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/pt-PT/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/netcoreapp3.1/ro/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/netcoreapp3.1/ru/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/sl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sl"
+          },
+          "lib/netcoreapp3.1/sr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sr"
+          },
+          "lib/netcoreapp3.1/sv/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/netcoreapp3.1/th/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "th"
+          },
+          "lib/netcoreapp3.1/tr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/uk/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/netcoreapp3.1/vi/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/netcoreapp3.1/zh-CN/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/netcoreapp3.1/zh-HK/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-TW/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "Esri.ArcGISRuntime.runtimes.win/100.9.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/runtimecore.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "100.9.0.2883"
+          },
+          "runtimes/win-x64/native/runtimecorenet.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "100.9.0.2883"
+          },
+          "runtimes/win-x86/native/runtimecore.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "100.9.0.2883"
+          },
+          "runtimes/win-x86/native/runtimecorenet.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "100.9.0.2883"
+          }
+        }
+      },
+      "Esri.ArcGISRuntime.WPF/100.9.0": {
+        "dependencies": {
+          "Esri.ArcGISRuntime": "100.9.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Esri.ArcGISRuntime.WPF.dll": {
+            "assemblyVersion": "100.9.0.0",
+            "fileVersion": "100.9.0.2883"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/runtimecorenet.wpf.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "100.9.0.2883"
+          },
+          "runtimes/win-x86/native/runtimecorenet.wpf.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "100.9.0.2883"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArcGISProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esri.ArcGISRuntime/100.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RV1YjU49l3oeeJTExKqtaDCVc9HnAhRE9zJo7g4xtzISRrRMOeLJo+kLNxeoITb7P9eyHiU9mJdgVm6cb7GWdQ==",
+      "path": "esri.arcgisruntime/100.9.0",
+      "hashPath": "esri.arcgisruntime.100.9.0.nupkg.sha512"
+    },
+    "Esri.ArcGISRuntime.runtimes.win/100.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ykOEJlhGdt61cZJNNqUGJluoskdC39C79J3HxEFGt9+yxnG1bt4Ji+HfFZwE7xyKll/a014UTuh9NTdrDl+f4A==",
+      "path": "esri.arcgisruntime.runtimes.win/100.9.0",
+      "hashPath": "esri.arcgisruntime.runtimes.win.100.9.0.nupkg.sha512"
+    },
+    "Esri.ArcGISRuntime.WPF/100.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t6ey8x7Ul48WscZ8KEHIGNvkh17Ohtl9zxBpwatUuxq/stdI4DfBtsVx+woaPm8b/XJLiqt+37tSdtHbEebRlA==",
+      "path": "esri.arcgisruntime.wpf/100.9.0",
+      "hashPath": "esri.arcgisruntime.wpf.100.9.0.nupkg.sha512"
+    }
+  }
+}

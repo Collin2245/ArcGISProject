@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\colli\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\colli\\.nuget\\packages"
+    ]
+  }
+}

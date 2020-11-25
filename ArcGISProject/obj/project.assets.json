@@ -1,0 +1,723 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Esri.ArcGISRuntime/100.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Esri.ArcGISRuntime.runtimes.win": "100.9.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Esri.ArcGISRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Esri.ArcGISRuntime.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/netcoreapp3.1/ar/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/netcoreapp3.1/bs/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "bs"
+          },
+          "lib/netcoreapp3.1/ca/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/netcoreapp3.1/cs/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/da/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "da"
+          },
+          "lib/netcoreapp3.1/de/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/el/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "el"
+          },
+          "lib/netcoreapp3.1/es/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/et/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "et"
+          },
+          "lib/netcoreapp3.1/fi/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/netcoreapp3.1/fr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/he/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "he"
+          },
+          "lib/netcoreapp3.1/hr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/netcoreapp3.1/hu/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/netcoreapp3.1/id/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "id"
+          },
+          "lib/netcoreapp3.1/it/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/lt/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "lt"
+          },
+          "lib/netcoreapp3.1/lv/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "lv"
+          },
+          "lib/netcoreapp3.1/nb-NO/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "nb-NO"
+          },
+          "lib/netcoreapp3.1/nl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netcoreapp3.1/no/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "no"
+          },
+          "lib/netcoreapp3.1/pl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/pt-PT/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/netcoreapp3.1/ro/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/netcoreapp3.1/ru/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/sl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sl"
+          },
+          "lib/netcoreapp3.1/sr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sr"
+          },
+          "lib/netcoreapp3.1/sv/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/netcoreapp3.1/th/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "th"
+          },
+          "lib/netcoreapp3.1/tr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/uk/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/netcoreapp3.1/vi/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/netcoreapp3.1/zh-CN/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/netcoreapp3.1/zh-HK/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-TW/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-TW"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/Esri.ArcGISRuntime.targets": {}
+        }
+      },
+      "Esri.ArcGISRuntime.runtimes.win/100.9.0": {
+        "type": "package",
+        "build": {
+          "buildTransitive/net461/Esri.ArcGISRuntime.runtimes.win.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/runtimecore.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/runtimecorenet.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/runtimecore.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/runtimecorenet.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Esri.ArcGISRuntime.WPF/100.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Esri.ArcGISRuntime": "100.9.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Esri.ArcGISRuntime.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Esri.ArcGISRuntime.WPF.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "build": {
+          "buildTransitive/netcoreapp3.1/Esri.ArcGISRuntime.WPF.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/runtimecorenet.wpf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/runtimecorenet.wpf.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Esri.ArcGISRuntime/100.9.0": {
+      "sha512": "RV1YjU49l3oeeJTExKqtaDCVc9HnAhRE9zJo7g4xtzISRrRMOeLJo+kLNxeoITb7P9eyHiU9mJdgVm6cb7GWdQ==",
+      "type": "package",
+      "path": "esri.arcgisruntime/100.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid10/Esri.ArcGISRuntime.targets",
+        "build/Xamarin.iOS10/Esri.ArcGISRuntime.targets",
+        "build/net461/Esri.ArcGISRuntime.targets",
+        "build/netcoreapp3.1/Esri.ArcGISRuntime.targets",
+        "build/uap10.0.17134/Esri.ArcGISRuntime.targets",
+        "buildTransitive/MonoAndroid10/Esri.ArcGISRuntime.targets",
+        "buildTransitive/Xamarin.iOS10/Esri.ArcGISRuntime.targets",
+        "buildTransitive/net461/Esri.ArcGISRuntime.targets",
+        "buildTransitive/netcoreapp3.1/Esri.ArcGISRuntime.targets",
+        "buildTransitive/uap10.0.17134/Esri.ArcGISRuntime.targets",
+        "esri.arcgisruntime.100.9.0.nupkg.sha512",
+        "esri.arcgisruntime.nuspec",
+        "icon.png",
+        "legal/Copyright_and_Trademarks.pdf",
+        "legal/EULA.txt",
+        "lib/monoandroid50/Esri.ArcGISRuntime.dll",
+        "lib/monoandroid50/Esri.ArcGISRuntime.xml",
+        "lib/monoandroid50/ar/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/bs/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/ca/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/cs/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/da/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/de/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/el/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/es/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/et/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/fi/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/fr/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/he/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/hr/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/hu/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/id/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/it/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/ja/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/ko/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/lt/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/lv/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/nb-NO/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/nl/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/no/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/pl/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/pt-BR/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/pt-PT/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/ro/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/ru/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/sl/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/sr/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/sv/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/th/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/tr/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/uk/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/vi/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/zh-CN/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/zh-HK/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/zh-Hans/Esri.ArcGISRuntime.resources.dll",
+        "lib/monoandroid50/zh-TW/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/Esri.ArcGISRuntime.dll",
+        "lib/net461/Esri.ArcGISRuntime.xml",
+        "lib/net461/ar/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/bs/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/ca/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/cs/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/da/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/de/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/el/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/es/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/et/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/fi/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/fr/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/he/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/hr/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/hu/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/id/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/it/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/ja/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/ko/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/lt/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/lv/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/nb-NO/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/nl/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/no/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/pl/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/pt-BR/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/pt-PT/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/ro/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/ru/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/sl/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/sr/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/sv/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/th/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/tr/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/uk/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/vi/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/zh-CN/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/zh-HK/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/zh-Hans/Esri.ArcGISRuntime.resources.dll",
+        "lib/net461/zh-TW/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/Esri.ArcGISRuntime.dll",
+        "lib/netcoreapp3.1/Esri.ArcGISRuntime.xml",
+        "lib/netcoreapp3.1/ar/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/bs/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/ca/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/cs/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/da/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/de/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/el/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/es/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/et/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/fi/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/fr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/he/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/hr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/hu/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/id/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/it/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/ja/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/ko/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/lt/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/lv/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/nb-NO/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/nl/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/no/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/pl/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/pt-BR/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/pt-PT/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/ro/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/ru/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/sl/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/sr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/sv/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/th/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/tr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/uk/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/vi/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/zh-CN/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/zh-HK/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/zh-Hans/Esri.ArcGISRuntime.resources.dll",
+        "lib/netcoreapp3.1/zh-TW/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/Esri.ArcGISRuntime.dll",
+        "lib/netstandard2.0/Esri.ArcGISRuntime.xml",
+        "lib/netstandard2.0/ar/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/bs/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/ca/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/cs/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/da/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/de/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/el/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/es/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/et/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/fi/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/fr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/he/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/hr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/hu/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/id/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/it/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/ja/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/ko/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/lt/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/lv/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/nb-NO/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/nl/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/no/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/pl/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/pt-BR/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/pt-PT/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/ro/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/ru/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/sl/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/sr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/sv/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/th/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/tr/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/uk/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/vi/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/zh-CN/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/zh-HK/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/zh-Hans/Esri.ArcGISRuntime.resources.dll",
+        "lib/netstandard2.0/zh-TW/Esri.ArcGISRuntime.resources.dll",
+        "lib/uap10.0.17134/Esri.ArcGISRuntime.dll",
+        "lib/uap10.0.17134/Esri.ArcGISRuntime.pri",
+        "lib/uap10.0.17134/Esri.ArcGISRuntime.xml",
+        "lib/xamarinios10/Esri.ArcGISRuntime.dll",
+        "lib/xamarinios10/Esri.ArcGISRuntime.xml",
+        "lib/xamarinios10/ar/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/bs/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/ca/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/cs/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/da/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/de/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/el/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/es/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/et/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/fi/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/fr/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/he/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/hr/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/hu/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/id/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/it/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/ja/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/ko/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/lt/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/lv/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/nb-NO/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/nl/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/no/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/pl/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/pt-BR/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/pt-PT/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/ro/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/ru/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/sl/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/sr/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/sv/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/th/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/tr/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/uk/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/vi/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/zh-CN/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/zh-HK/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/zh-Hans/Esri.ArcGISRuntime.resources.dll",
+        "lib/xamarinios10/zh-TW/Esri.ArcGISRuntime.resources.dll",
+        "resources/network_analyst/strings.bin"
+      ]
+    },
+    "Esri.ArcGISRuntime.runtimes.win/100.9.0": {
+      "sha512": "ykOEJlhGdt61cZJNNqUGJluoskdC39C79J3HxEFGt9+yxnG1bt4Ji+HfFZwE7xyKll/a014UTuh9NTdrDl+f4A==",
+      "type": "package",
+      "path": "esri.arcgisruntime.runtimes.win/100.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net461/Esri.ArcGISRuntime.runtimes.win.targets",
+        "buildTransitive/net461/Esri.ArcGISRuntime.runtimes.win.targets",
+        "esri.arcgisruntime.runtimes.win.100.9.0.nupkg.sha512",
+        "esri.arcgisruntime.runtimes.win.nuspec",
+        "icon.png",
+        "legal/Copyright_and_Trademarks.pdf",
+        "legal/EULA.txt",
+        "legal/open-source-acknowledgements.pdf",
+        "runtimes/win-x64/native/runtimecore.dll",
+        "runtimes/win-x64/native/runtimecorenet.dll",
+        "runtimes/win-x86/native/runtimecore.dll",
+        "runtimes/win-x86/native/runtimecorenet.dll"
+      ]
+    },
+    "Esri.ArcGISRuntime.WPF/100.9.0": {
+      "sha512": "t6ey8x7Ul48WscZ8KEHIGNvkh17Ohtl9zxBpwatUuxq/stdI4DfBtsVx+woaPm8b/XJLiqt+37tSdtHbEebRlA==",
+      "type": "package",
+      "path": "esri.arcgisruntime.wpf/100.9.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net461/Esri.ArcGISRuntime.WPF.targets",
+        "build/netcoreapp3.1/Esri.ArcGISRuntime.WPF.targets",
+        "buildTransitive/net461/Esri.ArcGISRuntime.WPF.targets",
+        "buildTransitive/netcoreapp3.1/Esri.ArcGISRuntime.WPF.targets",
+        "esri.arcgisruntime.wpf.100.9.0.nupkg.sha512",
+        "esri.arcgisruntime.wpf.nuspec",
+        "icon.png",
+        "legal/Copyright_and_Trademarks.pdf",
+        "legal/EULA.txt",
+        "lib/net461/Esri.ArcGISRuntime.WPF.dll",
+        "lib/net461/Esri.ArcGISRuntime.WPF.xml",
+        "lib/netcoreapp3.1/Esri.ArcGISRuntime.WPF.dll",
+        "lib/netcoreapp3.1/Esri.ArcGISRuntime.WPF.xml",
+        "resources/arcgisruntime100.9/resources/shaders/atmosphere_accurate_3d_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/atmosphere_accurate_3d_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/atmosphere_textured_3d_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/atmosphere_textured_3d_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/basic_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/basic_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/basic_usage_3d_depth_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/color_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/color_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/common_3d_rem_depth_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/deferred_full_screen_rem_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/full_screen_quad_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/magnifier_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/magnifier_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/magnifier_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/magnifier_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/measure_line_depth_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/measure_line_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/measure_line_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/modelline_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/modelline_3d_normal_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/offscreen_buffer_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/offscreen_buffer_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_3d_billboard_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_3d_billboard_sdf_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_3d_billboard_sdf_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_3d_billboard_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_3d_overlay_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_3d_overlay_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_cloud_3d_depth_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_cloud_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_cloud_3d_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/point_cloud_3d_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polygon_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polygon_3d_normal_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polygon_3d_overlay_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polygon_3d_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polygon_outline_3d_overlay_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polygon_outline_3d_overlay_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polyline_3d_depth_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polyline_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polyline_3d_normal_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polyline_3d_overlay_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/polyline_3d_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_basic_texture_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_dilate_reduce_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_gauss_blur_13x13_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_gauss_blur_17x17_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_gauss_blur_5x5_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_gauss_blur_9x9_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_selection_finalize_mask_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_selection_finalize_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_tex_image_modify_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_texture_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/re_texture_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_area_line_normal_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_area_line_normal_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_area_line_pick_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_area_line_pick_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_dynamic_marker_normal_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_dynamic_marker_normal_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_dynamic_marker_pick_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_dynamic_marker_pick_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_marker_normal_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_marker_normal_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_marker_pick_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/sequence_marker_pick_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/star_3d_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/star_3d_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/text_3d_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/text_3d_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_draped_graphics_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_draped_graphics_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_ground_overlay_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_ground_overlay_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_rem_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_rem_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_rem_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_rem_offscreen_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/tile_3d_rem_offscreen_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_depth_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_rem_depth_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_rem_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_rem_draw_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_rem_draw_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_rem_offscreen_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_3d_rem_offscreen_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_non_instanced_3d_depth_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/trianglemesh_non_instanced_3d_normal_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_background_pattern_fill_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_background_pattern_fill_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_background_solid_fill_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_background_solid_fill_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_circle_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_circle_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_marker_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_marker_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_outline_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_outline_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_pattern_fill_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_pattern_fill_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_pattern_line_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_pattern_line_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_sdf_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_sdf_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_solid_fill_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_solid_fill_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_solid_line_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_dd_solid_line_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_fill_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_fill_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_line_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_line_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_marker_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_marker_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_outline_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_outline_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_pattern_fill_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_pattern_fill_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_pattern_line_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_pattern_line_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_render_target_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_render_target_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_sdf_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_sdf_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_stencil_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_stencil_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_tile_info_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vector_tiles_tile_info_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/viewshed_post_process_3d_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_background_pattern_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_background_pattern_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_background_solid_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_background_solid_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_circle_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_circle_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_outline_dd_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_outline_dd_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_outline_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_outline_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_pattern_dd_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_pattern_dd_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_pattern_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_pattern_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_solid_dd_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_solid_dd_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_solid_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_fill_solid_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_icon_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_icon_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_line_pattern_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_line_pattern_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_line_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_line_vs.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_sdf_ps.cso",
+        "resources/arcgisruntime100.9/resources/shaders/vt_sdf_vs.cso",
+        "runtimes/win-x64/native/runtimecorenet.wpf.dll",
+        "runtimes/win-x86/native/runtimecorenet.wpf.dll",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Esri.ArcGISRuntime.WPF >= 100.9.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\colli\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\colli\\OneDrive\\Programming\\C#\\ArcGISProject\\ArcGISProject\\ArcGISProject.csproj",
+      "projectName": "ArcGISProject",
+      "projectPath": "C:\\Users\\colli\\OneDrive\\Programming\\C#\\ArcGISProject\\ArcGISProject\\ArcGISProject.csproj",
+      "packagesPath": "C:\\Users\\colli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\colli\\OneDrive\\Programming\\C#\\ArcGISProject\\ArcGISProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\colli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\colli\\AppData\\Local\\Esri\\NuGet": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Esri.ArcGISRuntime.WPF": {
+            "target": "Package",
+            "version": "[100.9.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Esri.ArcGISRuntime.runtimes.win 100.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Esri.ArcGISRuntime.runtimes.win",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
